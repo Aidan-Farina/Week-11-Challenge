@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+// had to console log because was having so many issues
 app.use('/', (req, res, next) => {
   console.log('Request received:', req.method, req.url);
   next();
@@ -18,7 +18,7 @@ app.use('/api/notes', notesRouter);
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Serve index.html for all routes
+// redirects to index.html
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
