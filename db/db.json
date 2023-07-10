@@ -1,18 +1,1 @@
-[
-    {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "dwa",
-        "text": "dwa"
-    }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"Test Title","text":"Test text"},{"title":"Test Title","text":"Test text"},{"title":"dwa","text":"dwa"},{"title":"dwa","text":"dwa"}]
